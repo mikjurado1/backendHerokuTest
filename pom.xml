@@ -37,13 +37,10 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.microsoft.sqlserver</groupId>
-			<artifactId>mssql-jdbc</artifactId>
-			<version>10.2.0.jre11</version>
-			<scope>runtime</scope>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.28</version> <!-- Debes usar la versión adecuada -->
 		</dependency>
-
-
 	</dependencies>
 
 	<build>
